@@ -1,3 +1,3 @@
 Consider the following graph that has costs attached to its edges:
 
-[img](Artificial_Intelligence/Minimum Cost Path/image.png)
+[img](https://github.com/deepanjali19/Artificial_Intelligence/blob/master/Minimum%20Cost%20Path/image.png)
