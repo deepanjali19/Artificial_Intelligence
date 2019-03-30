@@ -34,8 +34,8 @@ acyclic_path(A, [A | Path1], _, [A | Path1]).
 
 acyclic_path(A, [Y | Path1], graph(Nodes, Edges), Path) :-
 	member(c(X, Y), Edges),
-    not(member(X, Path1)),
-    acyclic_path(A, [X ,Y|Path1], graph(Nodes, Edges), Path).
+	not(member(X, Path1)),
+	acyclic_path(A, [X ,Y|Path1], graph(Nodes, Edges), Path).
 
 % checks if node is member of provided edges
 
