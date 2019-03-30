@@ -3,6 +3,7 @@ The path represents an ordered list of nodes from the start node to the goal nod
 Since the path is acyclic, a node appears in the path only once.
 
 **Execution steps:**
+
 *Step 1* - Compile	
   ?- ['..location of the file../acyclic.pl'].
 
